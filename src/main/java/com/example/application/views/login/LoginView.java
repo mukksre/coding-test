@@ -2,6 +2,7 @@ package com.example.application.views.login;
 
 import com.vaadin.flow.component.login.LoginForm;
 import com.vaadin.flow.component.notification.Notification;
+import com.vaadin.flow.component.notification.NotificationVariant;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.server.VaadinSession;
@@ -22,7 +23,9 @@ public class LoginView extends HorizontalLayout {
           getUI().get().navigate("listall");
         }
       }else {
-        Notification.show("Login Failed", 1000, Notification.Position.MIDDLE);
+        Notification loginFailureNotification = Notification.show("Login Failed", 1000, Notification.Position.MIDDLE);
+        loginFailureNotification.addThemeVariants(NotificationVariant.LUMO_ERROR);
+        getUI().get().getPage().reload();
       }
     });
     add(loginForm);
