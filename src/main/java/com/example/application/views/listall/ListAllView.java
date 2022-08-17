@@ -44,7 +44,7 @@ public class ListAllView extends HorizontalLayout {
             grid.setItems(allPatients);
             grid.addColumn(Patient::getId).setHeader("ID").setResizable(true);
             grid.addColumn(Patient::getName).setHeader("Name").setResizable(true).setWidth("100px");
-            grid.addColumn(Patient::getDateOfBirth).setHeader("Date of birth");
+            grid.addColumn(Patient::getDateOfBirth).setHeader("Date of birth").setResizable(true);
             grid.addColumn(Patient::getEmail).setHeader("Email").setResizable(true).setWidth("100px");
             grid.addColumn(Patient::getAddressLine1).setHeader("Address Line 1").setResizable(true).setWidth("100px");
             grid.addColumn(Patient::getAddressLine2).setHeader("Address Line 2").setResizable(true).setWidth("100px");
