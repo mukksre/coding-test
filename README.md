@@ -22,6 +22,7 @@ Port 8080 should be open on your testing machine.
 11. Password for patient is patient100
 12. Use admin for the admin list all view. Use patient to go to the registration view.
 13. If you are in the patient registration view and you want to go back and see list view, go back to localhost:8080, log in as admin and then you can see the list view.
+14. To test the image uploads, i have attached two sample images 200w.webp and 300w.webp, that you can use for testing Driver License Image uploads.
 
 ##Login Page 
 ![login.png](login.png)
