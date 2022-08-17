@@ -24,14 +24,14 @@ Port 8080 should be open on your testing machine.
 13. If you are in the patient registration view and you want to go back and see list view, go back to localhost:8080, log in as admin and then you can see the list view.
 14. To test the image uploads, i have attached two sample images 200w.webp and 300w.webp, that you can use for testing Driver License Image uploads.
 
-##Login Page 
+## Login Page 
 ![login.png](login.png)
 
-##Patient Registration screen
+## Patient Registration screen
 ![register.png](register.png)
 
-##Patient Registration screen Validation Errors
+## Patient Registration screen Validation Errors
 ![validationerrors.png](validationerrors.png)
 
-##List all Registrations
+## List all Registrations
 ![listall.png](listall.png)
